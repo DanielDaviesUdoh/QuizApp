@@ -1,0 +1,93 @@
+.result-container {
+  padding: 0.4em;
+}
+
+.result-container h3 {
+  text-align: center;
+  padding-bottom: 0.2em;
+  margin: 0;
+  border-bottom: 1px solid grey;
+}
+
+.result-container  ul {
+  margin: 0;
+  margin-bottom: 1.2em;
+  padding: 0.5em 2em;
+  background-color: rgb(204, 204, 238);
+}
+
+.result-container  li {
+  padding: 0.12em 0;
+}
+
+.result-container  li::marker {
+  font-size: 1.2rem;
+  color: rgb(32, 32, 58);
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type='text'] {
+  width: 50%;
+  border: none;
+  padding: 0.34em 0.6em;
+  font-size: 0.95rem;
+}
+
+input[type='text']:focus {
+  outline: 2px solid black;
+}
+
+.submit-button {
+  background-color: rgb(41, 41, 165);
+  font-size: 0.9rem;
+  color: white;
+  padding: 0.4em 0.6em;
+}
+
+.result-button {
+  background-color: rgb(41, 41, 165);
+  font-size: 0.9rem;
+  color: white;
+  padding: 0.4em 0.6em;
+  margin-left: 2em;
+}
+
+.exit-button {
+  position: absolute;
+  right: 24%;
+  bottom: 5%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background: red;
+  padding: 0.3em 0.6em;
+}
+
+.try-button {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(0deg, rgb(41, 41, 165), rgb(221, 126, 17));
+  padding: 0.3em 0.6em;
+}
+
+@media (max-width: 420px) {
+  .result-container {
+    padding: 0.1em 0.4em 0.4em;
+  }
+
+  .exit-button {
+    right: 30%;
+  }
+
+  .try-button {
+    right: 5%;
+  }
+}

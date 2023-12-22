@@ -1,0 +1,46 @@
+.buttons-div {
+  position: absolute;
+  bottom: 5%;
+  left: 7%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fifty,
+.hints {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(37, 37, 87);
+  font-size: 0.7rem;
+  padding: 0.3em 0.6em;
+  margin-right: 0.8em;
+  border: 1px solid rgb(41, 41, 165);
+}
+
+.next-button,
+.dis-button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.3em 0.6em;
+  margin-right: 0.1em;
+}
+
+.next-button {
+  background: linear-gradient(0deg, rgb(41, 41, 165), rgb(221, 126, 17));
+}
+
+.dis-button {
+  background-color: rgb(167, 163, 163);
+  cursor: not-allowed;
+}
+
+@media (max-width: 420px) {
+  .buttons-div {
+    left: 17%;
+    width: 65%;
+  }
+}

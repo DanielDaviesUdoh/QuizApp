@@ -1,0 +1,10 @@
+.time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  width: 0;
+  height: 0.55%;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}

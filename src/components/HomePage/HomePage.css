@@ -1,0 +1,68 @@
+.home-page {
+  position: relative;
+  background: url('../image/quiz-homepage.jpg');
+  background-repeat: no-repeat;
+  background-position: -5% 50%;
+  background-size: cover;
+  width: 460px;
+  height: 360px;
+  padding: 1.4em 0.8em 0.6em;
+  margin-top: -6em;
+}
+
+.welcome {
+  position: absolute;
+  left: 4%;
+  bottom: 10%;
+  background-color: rgb(204, 204, 238);
+  width: 70%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.welcome h3 {
+  padding-top: 0.5em;
+  margin: 0;
+  text-align: center;
+}
+
+.welcome ul {
+  margin: 0;
+  margin-bottom: 1.2em;
+  padding: 0.2em 2em;  
+}
+
+.welcome li {
+  padding: 0.12em 0;
+  font-size: 0.85rem;
+}
+
+.welcome li::marker {
+  font-size: 1.1rem;
+  color: rgb(32, 32, 58);
+}
+
+.welcome h5 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 0.2em;
+}
+
+@media (max-width: 420px) {
+  .home-page {
+    background-position: 56% 50%;
+    background-size: cover;
+    width: 320px;
+    height: 385px;
+    padding: 1em 0.6em 0.3em;
+    margin-top: -10em;
+  }
+
+  .welcome {
+    width: 65%;
+  }
+
+  .welcome ul {
+    margin-bottom: 1em;
+    padding: 0.2em 2em;  
+  }
+}

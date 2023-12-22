@@ -1,0 +1,72 @@
+.num {
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+
+.question-num {
+  font-size: 1.6rem;
+}
+
+.total-q {
+  color: rgb(53, 52, 52);
+  font-size: 1rem;
+}
+
+.question {
+  border-top: 1px solid grey;
+  padding-top: 0.4em;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.boolean {
+  color: rgb(173, 102, 19);
+}
+
+.option {
+  width: 70%;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: rgb(177, 177, 240);
+  margin: 0.6em auto;
+  padding: 0.3em;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.input-answer {
+  background-color: rgb(177, 177, 240);
+  border: none;
+}
+
+.input-answer::placeholder {
+  color: rgb(252, 247, 247);
+}
+
+.ans-selected {
+  background-color: aliceblue;
+}
+
+@media (max-width: 420px) {
+  .question-num {
+    font-size: 1.18rem;
+  }
+  
+  .total-q {
+    color: rgb(53, 52, 52);
+    font-size: 0.8rem;
+  }
+
+  .question {
+    padding-top: 0.4em;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .option {
+    width: 88%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
